@@ -1,0 +1,27 @@
+{
+  "name": "test-cli-tool-yss",
+  "type": "commonjs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "parse-tt": "bin/tma.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.2",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}

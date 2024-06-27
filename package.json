@@ -1,27 +1,27 @@
 {
-  "name": "test-cli-tool-yss",
-  "type": "commonjs",
+  "description": "自定义cli",
+  "name": "myzyy",
   "version": "0.0.0",
-  "description": "",
+  "type": "commonjs",
   "main": "index.js",
   "bin": {
-    "parse-tt": "bin/tma.js"
+    "myzyy": "bin/tma.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "zyy"
+  ],
+  "author": "zyy",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
-    "chokidar": "^3.6.0",
+    "chalk-animation": "^2.0.3",
     "commander": "^12.1.0",
-    "fs-extra": "^11.2.0",
-    "glob": "^10.4.2",
-    "yargs": "^17.7.2"
-  },
-  "engines": {
-    "node": ">=8.9"
+    "download-git-repo": "^3.0.2",
+    "git-clone": "^0.2.0",
+    "inquirer": "^7.3.3",
+    "ora": "^5.4.1"
   }
 }
